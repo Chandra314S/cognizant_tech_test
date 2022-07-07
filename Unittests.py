@@ -1,6 +1,6 @@
 import os
 import unittest
-from cognizant_tech_test import Dataparser
+from Cognizant_tech_test import Dataparser
 
 class Unitestfunc(unittest.TestCase):
 	Basepath = os.path.dirname(__file__)
