@@ -12,7 +12,7 @@ pipeline {
         IMAGE_TAG="${env.BUILD_ID}"
         REPOSITORY_URI = "https://${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
     }
-   
+    
     stages {
         
         stage('Building image') {
@@ -45,3 +45,4 @@ pipeline {
         }
     }
 }
+##CICD Pipeline created
